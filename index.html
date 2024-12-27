@@ -1,0 +1,31 @@
+<!--Bir yemek tarifi uygulaması için çalışıyorsunuz. 
+Kullanıcı bir butona tıklayarak rastgele bir yemek tarifi görmek istiyor. 
+Tarife ait isim, malzemeler ve yapılışı talimatlarını API den çekmelisiniz. 
+-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Tarifi Uygulaması</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .recipe-container { margin-top: 20px; }
+        .recipe-title { font-size: 24px; font-weight: bold; }
+        .recipe-ingredients, .recipe-instructions { margin-top: 10px; }
+        .ingredient-item { margin: 5px 0; }
+        .recipe-button { background-color: #4CAF50; color: white; border: none; padding: 10px 20px; cursor: pointer; font-size: 16px; }
+        .recipe-button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>Rastgele Yemek Tarifi</h1>
+    <button class="recipe-button" id="randomRecipeButton">Rastgele Tarif Al</button>
+
+    <div class="recipe-container" id="recipeContainer">
+        <!-- Tarife ait bilgiler buraya yüklenecek -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
